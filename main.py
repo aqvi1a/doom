@@ -4,7 +4,7 @@ from progi.classes import *
 from progi.sett import *
 
 pygame.init()
-
+pygame.display.set_caption('Astronomicon')
 #-------------FONTS AND MUSIC/SOUND----------------------------#
 
 cursor = pygame.transform.scale(pygame.image.load('assets/crosshair.png'), (32, 32))
